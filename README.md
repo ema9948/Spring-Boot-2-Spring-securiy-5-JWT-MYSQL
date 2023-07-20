@@ -5,8 +5,9 @@
 - Cuenta con End-point publicos para registración y autenticación.
 - Este es un, template que se usara en otro proyecto que está en desarrollo.
 - Integra un Controller Advice que captura Exepciones y las envia como Reponse.
-- Validaciones del Requeste y las misma Excepciones controladas por el anterior mencionado.
-- 
+- Validaciones del Request y las misma Excepciones lanzadas por este son  controladas por el  Controller Advice.
+
+
 ## Requerimientos básicos
 - Java 11+ /  open JDK 11+
 
